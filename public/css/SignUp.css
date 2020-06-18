@@ -52,7 +52,7 @@ font-family: 'Seaweed Script', cursive;
     color: white;
 }
 .signup-form-1{
-    margin-top: 320px;
+    margin-top: 340px;
     margin-bottom: 50px;
     width: 400px;
     padding: 20px;
@@ -75,7 +75,7 @@ font-family: 'Seaweed Script', cursive;
     font-size: 40px;
 }
 .signup-form-1 input[type = "text"], input[type = "password"], input[type = "email"], input[type = "number"]{
-    background: none;
+    background: lightgray;
     display: block;
     margin: 20px auto;
     text-align: center;
@@ -139,7 +139,7 @@ font-family: 'Seaweed Script', cursive;
 }
 footer{
     position: absolute;
-    bottom: -520px;
+    bottom: -550px;
     padding: 0 37%;
     font-weight: bold;
     font-family: 'Poiret One', cursive;
