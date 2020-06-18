@@ -8,4 +8,4 @@
 4. Complete the  form validations for signup, login and add book forms.
 5. Styles should be applied properly.
 
->Server Posrt used 5002
+>Server Port used 5002
