@@ -4,7 +4,7 @@ const addRouter = express.Router();
 function router(nav){
 
     addRouter.get('/',(req,res)=>{
-        res.render("signup",
+        res.render("addbook",
         {
             nav,
             title:'Add Book | Library App',
