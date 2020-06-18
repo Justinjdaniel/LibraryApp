@@ -16,13 +16,13 @@ function router(nav){
             author:'Mark Twain'
         }
     ]
-    // var readnxt =[
-    //     {
-    //         read1:'Deciding what to read next?',
-    //         read2:'ou’re in the right place. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly insightful recommendations. Sign In to access more books and stories,',
-    //         read3:'New here? Create a free account!'
-    //     }
-    // ];
+    var readnxt =[
+        {
+            read1:'Deciding what to read next?',
+            read2:'ou’re in the right place. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly insightful recommendations. Sign In to access more books and stories,',
+            read3:'New here? Create a free account!'
+        }
+    ];
 
     welcomeRouter.get('/',(req,res)=>{
         res.render("welcome",
@@ -30,7 +30,8 @@ function router(nav){
             nav,
             title:'Welcome | Library App',
             head:'Welcome',
-            welcome
+            welcome,
+            readnxt
         });
     });
 

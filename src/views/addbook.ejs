@@ -8,7 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <!-- Linking  -->
-    <link rel="stylesheet" href="css/Welcome.css">
+    <link rel="stylesheet" href="css/Addbook.css">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bellota:wght@700&family=Black+Ops+One&family=Michroma&family=Montserrat:wght@500;700&family=Orbitron:wght@700&family=Piedra&family=Poiret+One&family=Seaweed+Script&display=swap" rel="stylesheet">
 
@@ -50,9 +50,28 @@
                   </div>
             </div>
             <!-- Story Box  -->
-            <h3>Add A New Book</h3>
+            <!-- <h3>Add A Book</h3> -->
             <div class="StoryBox shadow-sm">
-
+                <h1><%=add[0].head%></h1>
+                <div class="content">
+                    <div class="details">
+                        <label for="name"><%=add[0].title%></label><br>
+                        <input type="text" required placeholder="<%=add[0].title%>"><br>
+                        <label for="name"><%=add[0].author%></label><br>
+                        <input type="text" required placeholder="<%=add[0].author%>"><br>
+                        <label for="name"><%=add[0].genre%></label><br>
+                        <input type="text" required placeholder="<%=add[0].genre%>"><br>
+                        <label for="name"><%=add[0].published%></label><br>
+                        <input type="text" required placeholder="<%=add[0].published%>"><br>
+                        <label for="name"><%=add[0].about%></label><br>
+                        <input type="text" required placeholder="<%=add[0].about%>">
+                    </div>
+                    <div class="cover">
+                        <label for="cover"><%=add[0].cover%></label>
+                        <input type="file" name="BookCover" required accept="image/*"><br>
+                        <img src="" id="preview" alt="<%=add[0].cover%>">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
